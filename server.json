@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.sprites/google-search-console",
+  "title": "Google Search Console by Sprites",
+  "description": "Google Search Console for AI agents: queries, positions, and SEO pages drafted for approval.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.sprites.ai/mcp/seo",
+  "repository": {
+    "url": "https://github.com/sprites-ai/google-search-console-mcp-server",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://mcp.sprites.ai/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sprites.ai/mcp"
+    }
+  ]
+}
